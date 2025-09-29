@@ -3,6 +3,7 @@ using Sirenix.OdinInspector;
 
 public class GameManager : MonoBehaviour
 {
+    public MyHashTable<string, object> myHashTable;
     public string nombre;
     public int debugQuantity;
     void Start()
